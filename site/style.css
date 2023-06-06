@@ -118,6 +118,33 @@ body {
   background-size: cover;
 }
 
+.game {
+  height: 800px;
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+}
+.game__title {
+  width: 584px;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 59px;
+  color: #FFFFFF;
+}
+.game__text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 32px;
+  color: #FFFFFF;
+}
+.game__img {
+  margin-left: 135px;
+}
+
 @media (max-width: 768px) {
   .center {
     padding-left: 16px;

@@ -121,5 +121,32 @@ body {
     background-size: cover;
 }
 
+.game {
+    height: 800px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+    &__title {
+        width: 584px;
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 48px;
+        line-height: 59px;
+        color: #FFFFFF;
+    }
+    &__text {
+        font-family: 'Montserrat';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 32px;
+        color: #FFFFFF;
+    }
+    &__img {
+        margin-left: 135px;
+    }
+}
+
 
 @import 'mobile';
